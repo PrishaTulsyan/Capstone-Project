@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+            margin: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .topnav{
+            overflow: hidden;
+            background-color: rgba(47, 255, 206, 0.941);
+        }
+        .topnav a{
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: 17px;
+        }
+        .topnav a:hover{
+            background-color: blue;
+            color: darkgray;
+        }
+        .topnav a.active{
+            background-color: greenyellow;
+            color: black;
+        }
+        h1{
+            text-align: center;
+            color: darkgreen;
+        }
+        p{
+            color: crimson;
+        }
+        .footer{
+            position:fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="Home.html" class="active">HOME</a>
+        <a href="Donkey.html" class="active">DONKEY</a>
+        <a href="LordFarquaad.html" class="active">LORD FARQUAAD</a>
+        <a href="Magicmirror.html" class="active">MAGIC MIRROR</a>
+        <a href="PrincessFiona.html" class="active">PRINCESS FIONA</a>
+        <a href="Shrek.html" class="active">SHREK</a>
+        <a href="fairyGodMother.html" class="active">FAIRY GOD MOTHER</a>
+        <a href="PrinceCharming.html" class="active">PRINCE CHARMING</a>
+    </div>
+    <section>
+        <img class="mySlides" src="shrek.jpg" height="500" width="1000">
+        <img class="mySlides" src="Fiona.jpg" height="500">
+        <img class="mySlides" src="lord-farquaad.jpg" height="500" width="1000">
+    </section>
+    <script src="script.js"></script>
+    <section>
+        <h1>fairyGodMother</h1>
+        <img src="fairyGodMother">
+        <p>The Fairy Godmother is a pivotal antagonist in Shrek 2, known for her cunning and manipulative personality. She is
+        portrayed as a glamorous, confident, and power-driven character who uses magic and charm to influence those around her
+        to achieve her own goals. Unlike the traditional benevolent fairy godmothers in fairy tales, Shrek’s Fairy Godmother is
+        deceptive and self-serving, orchestrating schemes to ensure her son, Prince Charming, marries Princess Fiona instead of
+        Shrek. Her character adds complexity and humor to the story, representing themes of control, parental pressure, and
+        appearances versus true intentions. With her iconic musical number and sharp wit, the Fairy Godmother is remembered as
+        both a formidable villain and a satirical take on fairy tale conventions.
+        </p>
+    </section>
+    <div class="footer">
+        <p>@all credits are taken from Google</p>
+    </div>
+</body>
+</html>
